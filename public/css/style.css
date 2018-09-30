@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	/*font-size: 1.5rem;*/
+}
+
+header nav > div > ul.navbar-nav{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	box-orient: horizontal;
+}
+
+
+
+.menu-02 nav,header nav,footer{
+	background: linear-gradient(to bottom right,#20c997,#b10b1b)!important;
+}
+
+.logo img{
+	height: 150px;
+}
+
+.banner{
+	/*margin-top: 55px;*/	
+}
+.banner .jumbotron{
+	background-color: #b0d0f1;
+}
+.banner h1{
+	font-family: monospace;
+}
+
+
+section img{
+	width: 50%!important;
+	margin: 10px auto;
+}
+section .carousel-control-next,section .carousel-control-prev{
+	width: 30px;
+	height: 30px;
+	top: 50%;
+	background: #ec0909;
+	border: 2px solid #ccc;
+}
+section .carousel-control-next{
+	right: -3em;
+}
+section .carousel-control-prev{
+	left: -3em;
+}
+section .carousel-inner{
+	/*overflow: inherit;*/
+}
+
+footer .address{
+	background: url("../images/address.png") no-repeat 18px;
+}
+footer .phone{
+	background: url("../images/phone.png") no-repeat 18px;
+}
+footer .email{
+	background: url("../images/email.png") no-repeat 18px;
+}
+
+@media screen and (max-width: 576px){
+	.logo .text-sm-center{
+		text-align: center!important;
+	}
+}
+@media screen and (min-width: 992px){
+	section .screen-tablet{
+		display: none;
+	}
+	section .screen-mobile{
+		display: none;
+	}
+}
+@media screen and (max-width: 991px){
+	section .screen-desktop{
+		display: none;
+	}
+	section .screen-mobile{
+		display: none;
+	}
+}
+@media screen and (max-width: 802px){
+	section .screen-desktop{
+		display: none;
+	}
+	section .screen-tablet{
+		display: none;
+	}
+	section .screen-mobile{
+		display: block;
+	}
+}

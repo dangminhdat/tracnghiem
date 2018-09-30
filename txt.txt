@@ -1,0 +1,10 @@
+admin
+role
+lop
+monhoc
+baithi
+type
+member
+rank
+chitietmember
+noti

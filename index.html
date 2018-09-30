@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Example </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/popper.min.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/font-awesome.css">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<script>
+	// var message="NoRightClicking"; 
+	// function defeatIE() {if (document.all) {(message);return false;}}
+	//  function defeatNS(e) {if (document.layers||(document.getElementById&&!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function("return false")
+//]]>
+</script>
+<body>
+	
+	<!-- HEADER -->
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark p-0">
+			<div class="container">		
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link p-1 text-white" href="#">Giới thiệu</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link p-1 text-white" href="#">Liên hệ</a>
+						</li>
+					</ul>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link btn btn-sm btn-success p-1 mt-1 text-white">Log In</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link">or</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn btn-sm btn-success p-1 mt-1 text-white">Sign Up</a>
+						</li>
+					</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- HEADER end -->
+
+	<!-- LOGO WEB -->
+	<div class="logo">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-lg-3 text-sm-center">
+					<img src="public/images/logo.png" class="img-thumbnail" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- LOGO WEB end -->
+
+	<!-- MAIN MENU -->
+	<div class="menu-02">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#"><span class="fa fa-home"></span></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu1">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="menu1">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#">Disabled</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown07">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-md-0">
+						<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+					</form>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!-- MAIN MENU end -->
+
+	<!-- BANNER HOME -->
+	<div class="banner">
+		<div class="jumbotron">
+			<div class="container">
+				<h1 class="display-3">Welcome to TracNghiemIT!</h1>
+				<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+				<p><a class="btn btn-primary btn-lg" href="#" role="button">Sign up now &raquo;</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- BANNER HOME end -->
+
+	<!-- LIST TRACNGHIEM -->
+	<section>
+		<div class="container">
+			<h1 class="text-center font-weight-bold text-success m-5">DANH SÁCH TRẮC NGHIỆM</h1>
+			<!-- SCREEN DESKTOP -->
+			<div id="screen-desktop" class="carousel slide screen-desktop" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-lg-3">
+								<div class="card bg-warning">
+									<img class="card-img-top" src="public/images/toan.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="card bg-danger">
+									<img class="card-img-top" src="public/images/ly.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="card bg-success">
+									<img class="card-img-top" src="public/images/hoa.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="card bg-info">
+									<img class="card-img-top" src="public/images/anh.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-lg-3">
+								<div class="card bg-warning">
+									<img class="card-img-top" src="public/images/toan.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="card bg-danger">
+									<img class="card-img-top" src="public/images/ly.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="card bg-success">
+									<img class="card-img-top" src="public/images/hoa.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="card bg-info">
+									<img class="card-img-top" src="public/images/anh.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#screen-desktop" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#screen-desktop" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<!-- SCREEN DESKTOP end -->
+
+			<!-- SCREEN TABLET -->
+			<div id="screen-tablet" class="carousel slide screen-tablet" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card bg-warning">
+									<img class="card-img-top" src="public/images/toan.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card bg-danger">
+									<img class="card-img-top" src="public/images/ly.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card bg-success">
+									<img class="card-img-top" src="public/images/hoa.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card bg-info">
+									<img class="card-img-top" src="public/images/anh.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card bg-warning">
+									<img class="card-img-top" src="public/images/toan.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card bg-danger">
+									<img class="card-img-top" src="public/images/ly.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card bg-success">
+									<img class="card-img-top" src="public/images/hoa.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card bg-info">
+									<img class="card-img-top" src="public/images/anh.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#screen-tablet" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#screen-tablet" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<!-- SCREEN TABLET end -->
+
+			<!-- SCREEN MOBILE -->
+			<div id="carousel-example-generic" class="carousel slide screen-mobile" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="card bg-warning w-75 m-auto">
+									<img class="card-img-top" src="public/images/toan.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="card bg-danger w-75 m-auto">
+									<img class="card-img-top" src="public/images/ly.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="card bg-success w-75 m-auto">
+									<img class="card-img-top" src="public/images/hoa.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="card bg-info w-75 m-auto">
+									<img class="card-img-top" src="public/images/anh.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="card bg-warning w-75 m-auto">
+									<img class="card-img-top" src="public/images/toan.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="card bg-danger w-75 m-auto">
+									<img class="card-img-top" src="public/images/ly.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="card bg-success w-75 m-auto">
+									<img class="card-img-top" src="public/images/hoa.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="card bg-info w-75 m-auto">
+									<img class="card-img-top" src="public/images/anh.png" alt="Card image cap">
+									<div class="card-block bg-white text-center p-3">
+										<h4 class="card-title">Card title</h4>
+										<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<a href="#" class="btn btn-primary">Button</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev" style="left: 0">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next" style="right: 0">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<!-- SCREEN MOBILE end -->
+		</div>
+	</section>
+	<!-- LIST TRACNGHIEM end -->
+				
+	<!-- LIST HOME HOT -->
+	<div class="noibat">
+		<div class="container">
+			<h1 class="text-center font-weight-bold text-success m-5">LỚP 10</h1>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 mb-3">
+					<div class="card">
+						<div class="card-block p-2">
+							<h4 class="card-title font-weight-bold">Môn Toán | 90 phút | 10 điểm | 10/10/2010</h4>
+							<p class="card-text">Đề thi giữa kì toán lớp 9</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<a href="#" class="btn btn-sm btn-primary">Xem đê thi</a> <a href="" class="btn btn-sm btn-success">Thi ngay</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 mb-3">
+					<div class="card">
+						<div class="card-block p-2">
+							<h4 class="card-title font-weight-bold"><span class="text-success">Môn Toán</span> | 90 phút | 10 điểm | 10/10/2010</h4>
+							<p class="card-text">Đề thi giữa kì toán lớp 9</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<a href="#" class="btn btn-sm btn-primary">Xem đê thi</a> <a href="" class="btn btn-sm btn-success">Thi ngay</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 mb-3">
+					<div class="card">
+						<div class="card-block p-2">
+							<h4 class="card-title font-weight-bold">Môn Toán | 90 phút | 10 điểm | 10/10/2010</h4>
+							<p class="card-text">Đề thi giữa kì toán lớp 9</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<a href="#" class="btn btn-sm btn-primary">Xem đê thi</a> <a href="" class="btn btn-sm btn-success">Thi ngay</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 mb-3">
+					<div class="card">
+						<div class="card-block p-2">
+							<h4 class="card-title font-weight-bold">Môn Toán | 90 phút | 10 điểm | 10/10/2010</h4>
+							<p class="card-text">Đề thi giữa kì toán lớp 9</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<a href="#" class="btn btn-sm btn-primary">Xem đê thi</a> <a href="" class="btn btn-sm btn-success">Thi ngay</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h1 class="text-center font-weight-bold text-success m-5">LỚP 11</h1>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 mb-3">
+					<div class="card">
+						<div class="card-block p-2">
+							<h4 class="card-title font-weight-bold">Môn Toán | 90 phút | 10 điểm | 10/10/2010</h4>
+							<p class="card-text">Đề thi giữa kì toán lớp 9</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<a href="#" class="btn btn-sm btn-primary">Xem đê thi</a> <a href="" class="btn btn-sm btn-success">Thi ngay</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 mb-3">
+					<div class="card">
+						<div class="card-block p-2">
+							<h4 class="card-title font-weight-bold"><span class="text-success">Môn Toán</span> | 90 phút | 10 điểm | 10/10/2010</h4>
+							<p class="card-text">Đề thi giữa kì toán lớp 9</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<a href="#" class="btn btn-sm btn-primary">Xem đê thi</a> <a href="" class="btn btn-sm btn-success">Thi ngay</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 mb-3">
+					<div class="card">
+						<div class="card-block p-2">
+							<h4 class="card-title font-weight-bold">Môn Toán | 90 phút | 10 điểm | 10/10/2010</h4>
+							<p class="card-text">Đề thi giữa kì toán lớp 9</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<a href="#" class="btn btn-sm btn-primary">Xem đê thi</a> <a href="" class="btn btn-sm btn-success">Thi ngay</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 mb-3">
+					<div class="card">
+						<div class="card-block p-2">
+							<h4 class="card-title font-weight-bold">Môn Toán | 90 phút | 10 điểm | 10/10/2010</h4>
+							<p class="card-text">Đề thi giữa kì toán lớp 9</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<a href="#" class="btn btn-sm btn-primary">Xem đê thi</a> <a href="" class="btn btn-sm btn-success">Thi ngay</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- LIST HOME HOT end -->
+
+	<!-- LIST RANKING -->
+	<div class="xephang">
+		<div class="container">
+			<h1 class="text-center font-weight-bold text-success m-5">TOP THÀNH VIÊN</h1>
+				<table class="table table-inverse">
+					<thead>
+						<tr>
+							<th>STT</th>
+							<th>Tên</th>
+							<th>Facebook</th>
+							<th>Điểm tổng</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Cristiano Ronaldo</td>
+							<td>cristianoronaldo</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Cristiano Ronaldo</td>
+							<td>cristianoronaldo</td>
+							<td>100</td>
+						</tr>
+					</tbody>
+				</table>
+		</div>
+	</div>
+	<!-- LIST RANKING end -->
+
+	<!-- FOOTER -->
+	<footer class="mt-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 text-white pt-4">
+					<h4 class="pb-3">TracNghiemIT</h4>
+					<p class="address pl-5">41 Trần Quý Cáp, P. Vĩnh Điện, TX. Điện Bàn, T.Quảng Nam</p>
+					<p class="phone pl-5">01215 300 516</p>
+					<p class="email pl-5">dangminhdat.qnam@gmail.com</p>
+				</div>
+				<div class="col-lg-6 p-4">
+					FACEbOOk
+				</div>
+				<div class="col-sm-12 m-2">
+					<small class="text-white float-sm-left p-1 mr-3">Copyright © by <a href="http://dangminhdat.com">Đạt Đặng</a></small>
+					<form class="form-inline">
+						<div class="form-group">
+							<input type="email">
+						</div>
+						<button type="submit" class="btn btn-sm btn-secondary ml-2">Nhận Email</button>
+						<label class="text-white ml-1">Nhận thông tin bài mới nhất qua email</label>
+					</form>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- FOOTER end -->
+</body>
+</html>
